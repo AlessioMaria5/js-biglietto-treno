@@ -7,19 +7,19 @@ let sconto
 
 alert('il prezzo è' + ' ' + prezzo + '€');
 
-const età = prompt('Inserisci la tua età');
+const eta = prompt('Inserisci la tua età');
 
-if (età >= 65) {
+if (eta >= 65) {
 
     sconto = (prezzo * 0.60);
 }
 
-if (età <= 18) {
+if (eta <= 18) {
 
     sconto = (prezzo * 0.80);
 }
 
-if (età >18 && 65) {
+if (eta > 18 && eta < 65) {
 
     sconto = prezzo;
 }
